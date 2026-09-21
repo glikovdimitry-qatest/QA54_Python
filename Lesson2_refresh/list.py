@@ -13,6 +13,7 @@ print(fruits)
 
 
 #adding methods - append(), insert(), extend()
+print("adding methods")
 fruits.append("kiwi")
 print(fruits)
 #fruits.append(["car", "truck"])
@@ -27,6 +28,7 @@ print(fruits)
 print()
 
 #removing methods - remove(), pop(), del, clear()
+print("removing methods")
 e = ["apple", "banana", "orange"]
 e.remove("banana")
 print(e)
@@ -49,6 +51,7 @@ print(k)
 print()
 
 #search and count methods - index(), count(), in, not in
+print("search and count methods")
 m = ["apple", "banana", "cherry", "orange"]
 print(m.index("cherry")) #2
 print(m.count("banana")) #1
@@ -58,6 +61,7 @@ print("kiwi" not in m) #True
 print()
 
 #sorting methods - sort(), sorted(), reverse()
+print("sorting methods")
 numbers = [3,1,5,2,9,6]
 result = numbers.sort()
 print(numbers,result)
@@ -78,6 +82,7 @@ print(numbers_4)
 print()
 
 #iterating method
+print("iterating method")
 items = ["apple", "banana", "orange"]
 
 for item in items:
