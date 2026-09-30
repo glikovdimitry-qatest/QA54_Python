@@ -18,4 +18,4 @@ def for_example(a,b=15,*args,**kwargs):
     print(args)
     print(kwargs)
 
-for_example(2,3,4,5,name="Alex")
+for_example(2,name="Alex")
