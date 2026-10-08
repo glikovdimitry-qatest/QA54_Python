@@ -1,6 +1,6 @@
 from audioop import reverse
 
-from Lessib1_remember.HW_1 import result
+from Lesson1_remember.HW_1 import result
 
 fruits = ["apple", "banana", "orange"]
 
